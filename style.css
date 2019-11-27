@@ -4,23 +4,31 @@
   box-sizing: border-box;
 }
 .container {
-  background: red;
   height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .carosello {
-  background: blue;
   display: flex;
-  height: 500px;
   width: 500px;
 }
 .arrowLeft, .arrowRight {
-  background: yellow;
-  width: 100px;
-  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+i {
+  color: lightgrey;
+}
+i:hover{
+  color: darkblue;
+}
+.carosello img {
+  width: 100%;
+  display: none;
+}
+.carosello img.active {
+  display: block;
 }
