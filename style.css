@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  display: flex;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: green;
+}
 .container {
   height: 500px;
   display: flex;
@@ -37,7 +44,7 @@ i {
 }
 .dots {
   position: absolute;
-  bottom: 30%;
+  bottom: 5%;
 }
 .dots i.active {
   color: darkblue;
