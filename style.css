@@ -18,6 +18,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  padding: 10px;
 }
 i {
   color: lightgrey;
@@ -27,6 +28,7 @@ i:hover{
 }
 .carosello img {
   width: 100%;
+  border-radius: 20px;
   display: none;
 }
 .carosello img.active {
