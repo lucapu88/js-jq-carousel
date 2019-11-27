@@ -17,7 +17,6 @@ $(document).ready(function() {
       $(dotActive).removeClass('active'); //stessa cosa di sopra ma per i pallini= la classe active si sposta cambiando così il colore del pallino.
       $(dotNext).addClass('active');
     }
-
   });//qui sotto faccio la stessa cosa, ma cliccando sulla freccia di sinistra. Non va all'immagine successiva ma va all'immagine precedente, idem per i pallini= processo inverso.
   $('.arrowLeft').click(function() {
     var imgActive = $('img.active');
