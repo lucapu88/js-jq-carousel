@@ -12,6 +12,7 @@
 .carosello {
   display: flex;
   width: 500px;
+  position: relative;
 }
 .arrowLeft, .arrowRight {
   display: flex;
@@ -23,7 +24,7 @@
 i {
   color: lightgrey;
 }
-i:hover{
+.fas:hover{
   color: darkblue;
 }
 .carosello img {
@@ -33,4 +34,11 @@ i:hover{
 }
 .carosello img.active {
   display: block;
+}
+.dots {
+  position: absolute;
+  bottom: 30%;
+}
+.dots i.active {
+  color: darkblue;
 }
